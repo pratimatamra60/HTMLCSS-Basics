@@ -5,34 +5,38 @@ body{
 header{
 	display: flex;
 	margin:40px 80px;
-
+	border-bottom: 2px solid #DCDCDC;
+	padding-bottom: 10px;
 }
 header #logo{
  	width:200px;
- 	flex:1;
- 	text-align: center;
+ 	margin-left: 50px;
 
 }
-header #logo img{
- 	width: 50%;
 
+header #logo img{
+ 	width: 100%;
  	
 }
 
 #nav{
 	flex:2;
 	font-size: 20px;
+	text-align: center;
 	
 }
 
 article{
  	display: flex;
- 	padding: 40px 80px;*/
+ 	padding: 40px 80px;
+ 	margin:40px 80px;
+ 	background-color: #DCDCDC;
 }
+
 aside{
-	flex:1;
-	
+	flex:1;	
 }
+
 main{
   	flex:1;
 }
@@ -40,13 +44,19 @@ main{
 .textcenter{
 	text-align: center;
 }
+
 footer{
 	flex:1;
 }
+
 h2{flex:0.5; }
-section{
-	margin:40px 80px;
-	background-color: #DCDCDC;
-	 
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+	color :blue;
 }
 
